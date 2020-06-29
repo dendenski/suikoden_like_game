@@ -20,7 +20,7 @@ public class GlowingEffect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //ColorChange();
+        ColorChange();
     }
     private void ColorChange(){
         if(colorValue >= .8){
